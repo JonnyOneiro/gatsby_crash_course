@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  background-color:#333; 
 }
 article,
 aside,
@@ -619,4 +620,23 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+/* Hero splash page */
+menu {
+  background-color: #555;
+}
+
+#___gatsby {
+  background: url("../images/kid_steps.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  
+
+}
+
+.hero {
+  height: 60vh;
 }
